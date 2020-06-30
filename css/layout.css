@@ -1,0 +1,12 @@
+header select {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 115px;
+}
+
+header button {
+    margin-left: 450px;
+    width: 115px;
+}
