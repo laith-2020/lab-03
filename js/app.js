@@ -1,9 +1,8 @@
 'use strict';
 
-
-function Hornes(title, imagePath, description, keyword, horns) {
+function Hornes(title, image_url, description, keyword, horns) {
     this.title = title;
-    this.imagePath = imagePath;
+    this.image_url = image_url;
     this.description = description;
     this.keyword = keyword;
     this.horns = horns;
@@ -89,7 +88,7 @@ $('#select2').on('click', function() {
         // render2 to do the render
         // render2($('#select1').val());//
         render2(selectedoption1); //Where "selectedoption1" is the value of the filter
-
+        // render2(selectedoption);
     } else if (selectedoption == 'byHorn') {
         Hornes.all.sort((a, b) => {
             if (a.horns > b.horns) return 1;
