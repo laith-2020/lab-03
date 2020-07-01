@@ -121,7 +121,6 @@ function render2(value) {
             // let headTitlte=`<h2>${Hornes.all[i].title}</h2>`;
             // let image=`<img class="imegSection" src=${Hornes.all[i].imagePath}>`;
             // let desc = `<p>${Hornes.all[i].description} </p>`;
-
             // $('div:last').append(headTitlte, image, desc);
 
             //the second way to render by using mutach
